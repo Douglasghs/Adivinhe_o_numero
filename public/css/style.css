@@ -1,0 +1,119 @@
+body{
+    background-color: rgba(0, 0, 0, 0.603);
+}
+
+.campoPessoas{
+    float: left;
+    width: 37%;
+    height: 600px;
+    margin-left: 15px;
+    border-radius: 5px;
+    border: 2px solid rgba(0, 0, 0, 0.603);
+}
+
+.nomeJogo{
+    float: right;
+    width: 50%;
+    margin-top: 100px;
+    margin-right: 8%;
+    border: 1px solid red;
+
+    text-align: center;
+    font-size: 25pt;
+    font-weight: bold;
+    font-family: "Arial";
+    font-style: normal;
+}
+
+.corpoJogo{
+    float: right;
+    width: 50%;
+    margin-right: 8%;
+    border: 1px solid red;
+}
+
+.explicacaoJogo{
+    float: left;
+    width: 100%;
+    margin-top: 2%;
+
+    text-align: center;
+    font-size: 12pt;
+    font-weight: bold;
+    font-family: "Arial";
+    font-style: normal;
+}
+
+.inputavel{
+    width: 50%;
+    margin-top: 5%;
+    margin-left: 15%;
+    border: 2px solid black;
+    border-radius: 5px;
+
+    text-align: right;
+    font-size: 12pt;
+    font-weight: bold;
+    font-family: "Arial";
+    font-style: normal;
+}
+
+.btnPalpite{
+    width: 20%;
+    border: 2px solid black;
+    border-radius: 5%;
+
+    text-align: center;
+    font-size: 12pt;
+    font-weight: bold;
+    font-family: "Arial";
+    font-style: normal;
+}
+
+.palpitesAnteriores{
+    float: left;
+    width: 27%;
+    margin-top: 5.3%;
+    margin-left: 3%;
+    
+    text-align: right;
+    font-size: 12pt;
+    font-weight: bold;
+    font-family: "Arial";
+    font-style: normal;
+}
+
+.certoOUerrado{
+    float: left;
+    width: 58%;
+    margin-top: 5%;
+    border: 2px solid black;
+    border-radius: 5px;
+
+
+    text-align: right;
+    font-size: 12pt;
+    font-weight: bold;
+    font-family: "Arial";
+    font-style: normal;
+}
+
+.relatorio{
+    float: left;
+    width: 60%;
+    margin-top: 5.3%;
+    margin-left: 20%;
+    border: 1px solid red;
+    
+    text-align: right;
+    font-size: 12pt;
+    font-weight: bold;
+    font-family: "Arial";
+    font-style: normal;
+}
+
+
+.btn_tentarnovamente{
+    border: 1px solid transparent;
+    background-color: transparent;
+}

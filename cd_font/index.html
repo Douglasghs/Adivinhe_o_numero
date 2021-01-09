@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <script src="socket.io/socket.io.js"></script>
+    <script src="js/script.js"></script>
+
+    <div class="campoPessoas"></div>
+    <div class="nomeJogo">Adivinhe o Número</div>
+    <div class="corpoJogo">
+        <div class="explicacaoJogo">
+            Selecionamos um número aleatório entre 1 e 100. Veja se consegue adivinhar em 10 chances ou menos. Lhe
+            diremos se seu palpite está com valor alto ou baixo.
+        </div>
+        <input type="number" class="inputavel" id="inputavel" placeholder="Digite seu palpite">
+        <button class="btnPalpite" onclick="EnviarPalpite()">Enviar Palpite</button>
+        <div class="palpitesAnteriores">palpites Anteriores:</div>
+        <input type="number" class="certoOUerrado" id="certoOUerrado">
+        <div class="relatorio"></div>
+        <button class="btn_tentarnovamente"></button>
+        <div></div>
+    </div>
+</body>
+
+</html>
