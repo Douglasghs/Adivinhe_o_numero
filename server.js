@@ -15,6 +15,9 @@ app.use(express.static(path.join(__dirname,"public")))
 
 io.on("connection", function(socket){
     console.log("Usuário "+socket.id+" Conectado")
+    socket.on('msg', function(){
+        socket.broadcast.emit('msg', socket.id)
+    })
 })
 
 
